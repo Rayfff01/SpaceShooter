@@ -18,6 +18,8 @@ public class GameScreen : ScreenObject
         private int _score;
         private int _health = 3;
 
+
+
         public GameScreen()
         {
             _console = new Console(40, 25);
@@ -32,6 +34,7 @@ public class GameScreen : ScreenObject
             _random = new Random();
             
             Game.Instance.FrameUpdate += OnFrameUpdate;
+
         }
         
         public override bool ProcessKeyboard(Keyboard info)
@@ -126,7 +129,11 @@ public class GameScreen : ScreenObject
         {
             TrySpawnEntity(50, () =>
             {
-                var enemy = new Enemy(){ Position = new Point(_random.Next(0, 40), 0) };
+                var enemy = new Enemy(_random.Next(1, 5))
+                {
+                    Position = new Point(_random.Next(0, 40), 0)
+                };
+
 
                 return (enemy, _enemies);
             });
