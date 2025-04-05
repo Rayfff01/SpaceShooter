@@ -63,6 +63,8 @@ public class GameScreen : ScreenObject
 
         private void OnFrameUpdate(object? sender, GameHost e)
         {
+        if (_isGameOver)
+            return;
         _console.Clear();
             _console.Print(1, 0, $"Score: {_score}");
             _console.Print(25, 0, $"Health: {_health}");
