@@ -20,8 +20,20 @@ public class GameScreen : ScreenObject
         private bool _isGameOver = false;
 
 
+    private void RestartGame()
+    {
+        _isGameOver = false;
+        _health = 3;
+        _score = 0;
+        _bullets.Clear();
+        _enemies.Clear();
+        //_supplies.Clear();
+        _console.Children.Clear();
+        _player.Position = new Point(20, 22);
+        _console.Children.Add(_player);
+    }
 
-        public GameScreen()
+    public GameScreen()
         {
             _console = new Console(40, 25);
             Children.Add(_console);
@@ -50,9 +62,15 @@ public class GameScreen : ScreenObject
             else if (info.IsKeyPressed(Keys.Down) && _player.Position.Y < 25)
                 _player.Position += new Point(0, 1);
 
-            if (info.IsKeyPressed(Keys.Space))
+        if (_isGameOver && info.IsKeyPressed(Keys.Space))
+        {
+            RestartGame();
+            return true;
+        }
+        if (info.IsKeyPressed(Keys.Space))
             {
-                var bullet = new Bullet { Position = _player.Position + new Point(0, -1) };
+
+            var bullet = new Bullet { Position = _player.Position + new Point(0, -1) };
 
                 _bullets.Add(bullet);
                 _console.Children.Add(bullet);
@@ -167,4 +185,5 @@ public class GameScreen : ScreenObject
             collection.Remove(entity);
             _console.Children.Remove(entity);
         }
+
     }
