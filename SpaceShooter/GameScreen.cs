@@ -94,13 +94,23 @@ public class GameScreen : ScreenObject
         if (_isGameOver)
             return;
         _console.Clear();
-            _console.Print(1, 0, $"Score: {_score}");
+
+        _console.Print(1, 0, $"Score: {_score}");
             _console.Print(25, 0, $"Health: {_health}");
 
         _moveableEntities = _bullets.Cast < IMoveable>().Concat(_enemies).Concat(_supplies).ToList();
         _moveableEntities.ForEach(x => x.Move());
-            
-            SpawnRandomEntities();
+
+        foreach (var supply in _supplies.ToArray())
+        {
+            if (supply.IsExpired())
+            {
+                _supplies.Remove(supply);
+                _console.Children.Remove(supply);
+            }
+        }
+
+        SpawnRandomEntities();
             
             UpdateProjectiles();
             UpdateEnemies();
@@ -209,15 +219,16 @@ public class GameScreen : ScreenObject
             _console.Children.Remove(entity);
         }
 
-        private void CheckPlayerSupplyCollisions()
+    private void CheckPlayerSupplyCollisions()
+    {
+        foreach (var supply in _supplies.ToArray())
         {
-            foreach (var supply in _supplies.ToArray())
-            {
-                if (!_player.CheckCollision(supply)) continue;
-                RemoveEntity(supply, _supplies);
-                _ammo += 5;
-                break;
-            }
+            if (!_player.CheckCollision(supply)) continue;
+            RemoveEntity(supply, _supplies);
+            _ammo += 5;
+            break;
         }
+    }
+
 
 }
