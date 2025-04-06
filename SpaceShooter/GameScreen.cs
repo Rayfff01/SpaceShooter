@@ -18,11 +18,13 @@ public class GameScreen : ScreenObject
         private int _score;
         private int _health = 3;
         private bool _isGameOver = false;
+        private int _ammo = 10;
 
 
     private void RestartGame()
     {
         _isGameOver = false;
+        _ammo = 10;
         _health = 3;
         _score = 0;
         _bullets.Clear();
@@ -69,12 +71,19 @@ public class GameScreen : ScreenObject
         }
         if (info.IsKeyPressed(Keys.Space))
             {
-
-            var bullet = new Bullet { Position = _player.Position + new Point(0, -1) };
+            if (_ammo > 0)
+            {
+                var bullet = new Bullet 
+                {
+                    Position = _player.Position + new Point(0, -1) 
+                };
 
                 _bullets.Add(bullet);
                 _console.Children.Add(bullet);
+
+                _ammo--;
             }
+        }
 
             return base.ProcessKeyboard(info);
         }

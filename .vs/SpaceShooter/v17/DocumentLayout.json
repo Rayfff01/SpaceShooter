@@ -42,8 +42,7 @@
               "RelativeToolTip": "global.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-28T16:16:33.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T16:16:33.797Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "SpaceShooter\\GameScreen.cs",
               "ToolTip": "C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\SpaceShooter\\GameScreen.cs",
               "RelativeToolTip": "SpaceShooter\\GameScreen.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAQwEQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwFQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T16:00:51.471Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "SpaceShooter\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T15:51:10.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T15:51:10.897Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "SpaceShooter\\Bullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T15:50:57.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T15:50:57.873Z"
             }
           ]
         }
