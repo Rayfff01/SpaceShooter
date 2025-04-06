@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|c:\\users\\\u0441\u0430\u043D\u044F\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\pr5\\spaceshooter\\spaceshooter\\supply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|solutionrelative:spaceshooter\\supply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|c:\\users\\\u0441\u0430\u043D\u044F\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\pr5\\spaceshooter\\spaceshooter\\imoveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|solutionrelative:spaceshooter\\imoveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|c:\\users\\\u0441\u0430\u043D\u044F\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\pr5\\spaceshooter\\spaceshooter\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|solutionrelative:spaceshooter\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|c:\\users\\\u0441\u0430\u043D\u044F\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\pr5\\spaceshooter\\spaceshooter\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|solutionrelative:spaceshooter\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|c:\\users\\\u0441\u0430\u043D\u044F\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\pr5\\spaceshooter\\spaceshooter\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|solutionrelative:spaceshooter\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|c:\\users\\\u0441\u0430\u043D\u044F\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\pr5\\spaceshooter\\spaceshooter\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4627C06-1B44-4BA8-B3B1-0DDAA2E62B5A}|SpaceShooter\\SpaceShooter.csproj|solutionrelative:spaceshooter\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +34,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMoveable.cs",
+              "DocumentMoniker": "C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\SpaceShooter\\IMoveable.cs",
+              "RelativeDocumentMoniker": "SpaceShooter\\IMoveable.cs",
+              "ToolTip": "C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\SpaceShooter\\IMoveable.cs",
+              "RelativeToolTip": "SpaceShooter\\IMoveable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T06:06:01.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Supply.cs",
+              "DocumentMoniker": "C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\SpaceShooter\\Supply.cs",
+              "RelativeDocumentMoniker": "SpaceShooter\\Supply.cs",
+              "ToolTip": "C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\SpaceShooter\\Supply.cs",
+              "RelativeToolTip": "SpaceShooter\\Supply.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T05:47:53.715Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -42,24 +76,25 @@
               "RelativeToolTip": "global.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-28T16:16:33.797Z"
+              "WhenOpened": "2025-03-28T16:16:33.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameScreen.cs",
               "DocumentMoniker": "C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\SpaceShooter\\GameScreen.cs",
               "RelativeDocumentMoniker": "SpaceShooter\\GameScreen.cs",
               "ToolTip": "C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\SpaceShooter\\GameScreen.cs",
               "RelativeToolTip": "SpaceShooter\\GameScreen.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwFQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAkwH4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T16:00:51.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\SpaceShooter\\Enemy.cs",
               "RelativeDocumentMoniker": "SpaceShooter\\Enemy.cs",
@@ -67,11 +102,12 @@
               "RelativeToolTip": "SpaceShooter\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T15:51:10.897Z"
+              "WhenOpened": "2025-03-28T15:51:10.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\\u0441\u0430\u043D\u044F\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u0438\u0433\u0440\u044B\\PR5\\SpaceShooter\\SpaceShooter\\Bullet.cs",
               "RelativeDocumentMoniker": "SpaceShooter\\Bullet.cs",
@@ -79,7 +115,8 @@
               "RelativeToolTip": "SpaceShooter\\Bullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T15:50:57.873Z"
+              "WhenOpened": "2025-03-28T15:50:57.873Z",
+              "EditorCaption": ""
             }
           ]
         }

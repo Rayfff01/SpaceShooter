@@ -19,7 +19,7 @@ public class GameScreen : ScreenObject
         private int _health = 3;
         private bool _isGameOver = false;
         private int _ammo = 10;
-
+        private List<Supply> _supplies;
 
     private void RestartGame()
     {
@@ -29,7 +29,7 @@ public class GameScreen : ScreenObject
         _score = 0;
         _bullets.Clear();
         _enemies.Clear();
-        //_supplies.Clear();
+        _supplies.Clear();
         _console.Children.Clear();
         _player.Position = new Point(20, 22);
         _console.Children.Add(_player);
@@ -46,6 +46,7 @@ public class GameScreen : ScreenObject
 
             _bullets = new List<Bullet>();
             _enemies = new List<Enemy>();
+            _supplies = new List<Supply>();
             _random = new Random();
             
             Game.Instance.FrameUpdate += OnFrameUpdate;
@@ -95,9 +96,9 @@ public class GameScreen : ScreenObject
         _console.Clear();
             _console.Print(1, 0, $"Score: {_score}");
             _console.Print(25, 0, $"Health: {_health}");
-            
-            _moveableEntities = _bullets.Cast<IMoveable>().Concat(_enemies).ToList();
-            _moveableEntities.ForEach(x => x.Move());
+
+        _moveableEntities = _bullets.Cast < IMoveable>().Concat(_enemies).Concat(_supplies).ToList();
+        _moveableEntities.ForEach(x => x.Move());
             
             SpawnRandomEntities();
             
@@ -106,6 +107,7 @@ public class GameScreen : ScreenObject
 
             CheckPlayerEnemyCollisions();
             CheckBulletEnemyCollisions();
+            CheckPlayerSupplyCollisions();
         }
         
         private void CheckPlayerEnemyCollisions()
@@ -168,17 +170,29 @@ public class GameScreen : ScreenObject
 
         private void SpawnRandomEntities()
         {
-            TrySpawnEntity(50, () =>
+            TrySpawnEntity(1, () =>
+            {
+                var direction = _random.Next(0, 2);
+                var position = direction == 0
+                ? new Point(-5, _random.Next(6, 12))
+                : new Point(45, _random.Next(6, 12));
+                var ammo = new Supply(position.X < 0 ? 1 : -1)
+                {
+                    Position = position
+                };
+                return (ammo, _supplies);
+            });
+        TrySpawnEntity(50, () =>
             {
                 var enemy = new Enemy(_random.Next(1, 5))
                 {
                     Position = new Point(_random.Next(0, 40), 0)
                 };
 
-
                 return (enemy, _enemies);
             });
-        }
+            
+    }
         
         private void TrySpawnEntity(int chancePercent, Func<(ScreenSurface entity, IList collection)> createEntity)
         {
@@ -195,4 +209,15 @@ public class GameScreen : ScreenObject
             _console.Children.Remove(entity);
         }
 
-    }
+        private void CheckPlayerSupplyCollisions()
+        {
+            foreach (var supply in _supplies.ToArray())
+            {
+                if (!_player.CheckCollision(supply)) continue;
+                RemoveEntity(supply, _supplies);
+                _ammo += 5;
+                break;
+            }
+        }
+
+}
